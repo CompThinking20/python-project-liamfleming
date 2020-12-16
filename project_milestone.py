@@ -56,4 +56,17 @@ def multi_sentence(list):
   print(random.choice(all_sentences))
 
 
-print(multi_sentence(grammar))
+
+  
+  def another_one(list):
+  print(random.choice(all_sentences))
+  print(random.choice(some_sentences))
+  print(chaos_sentence)
+  print(sentence)
+
+
+def a_little_poem(list):
+  print(multi_sentence(grammar))
+  print(another_one(grammar))
+
+print(a_little_poem(grammar))
